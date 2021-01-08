@@ -1,0 +1,197 @@
+
+body {
+    background-image:url("white.jpg");
+    margin:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+#header {
+   
+    margin:10px;
+    height:70px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 55px;
+    color:white;
+    background-image: url("green.jpg");
+    padding:10px;
+    border-radius:5px;
+    
+
+}
+
+h2 {
+    font-size: 32px;
+    color:darkslategray;
+}
+
+h3 {
+    font-size: 20px;
+    color:darkslategray;
+}
+
+
+
+
+
+
+
+
+#navbar ul {
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 10px;
+    color:skyblue;
+}
+
+#navbar ul li a:hover {
+    color: violet;
+}
+
+.main {
+    background-color:oldlace;
+    margin-left:20px;
+    margin-right:300px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:5px;
+    padding:10px;
+    font-size:17px;
+
+}
+
+.sideright{
+    margin-left:0px;
+    margin-right:0px; 
+    margin-top:0px;
+    margin-bottom:10px;
+    border-radius:5px;
+    padding:20px;
+    font-size:15px;
+    width:260px;
+    float:right;
+    clear:right;
+
+}
+
+
+
+
+#footer {
+    margin:10px;
+    height:70px;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url("Drops.jpg");
+}
+
+#footer {
+    padding: 5px;
+    text-align: center;
+}
+
+#footer ul {
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#footer ul li {
+    display: inline;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+    color:whitesmoke;
+}
+
+#footer ul li a:hover {
+    color:violet;
+}
+
+#theForm {
+    color:darkslategray;
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    display:table;
+    padding: 15px;
+    background-color:oldlace;
+    border: solid 2px green;
+}
+
+.row {
+    display: table-row;
+}
+
+.row label {
+    display:table-cell;
+    padding: 2px;
+    text-align: right;
+    font-size:15px;
+}
+
+.row input {
+    display:table-cell;
+    padding:2px;
+}
+
+a:link {
+    font-size:15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2px;
+}
+
+.radio {
+    font-size:15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    vertical-align: middle;
+    color: black;
+    position: relative;
+    padding-left: 30px;
+
+}
+
+.radio + .radio{
+    margin-left: 20px;
+}
+
+.radio span {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 7px;
+}
+
+
+
+
+
+
+
+
